@@ -88,6 +88,8 @@ def component_from_code(code: str) -> Tuple[str, int | None]:
             return "process", 3
         if 60 <= n <= 69:
             return "process", 5
+        # Fallback for edge cases
+        return "process", 2
     return "unknown", None
 
 

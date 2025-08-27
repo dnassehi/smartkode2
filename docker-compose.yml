@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  icpc2-app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      - MISTRAL_MODEL=${MISTRAL_MODEL:-mistral-large-latest}
+      - EMB_MODEL=${EMB_MODEL:-intfloat/multilingual-e5-base}
+      - TEMPERATURE=${TEMPERATURE:-0.2}
+      - TOPN_RETRIEVE=${TOPN_RETRIEVE:-40}
+      - MAX_TOKENS=${MAX_TOKENS:-800}
+    volumes:
+      - ./mnt:/app/mnt
+      - ./icpc2.faiss:/app/icpc2.faiss
+      - ./icpc2_meta.json:/app/icpc2_meta.json
+    restart: unless-stopped

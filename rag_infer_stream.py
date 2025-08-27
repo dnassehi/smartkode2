@@ -1,10 +1,10 @@
-# rag_infer.py
-# Retrieve ICPC-2 candidates and query an LLM (Mistral) with RAG grounding
+#!/usr/bin/env python3
+# rag_infer_stream.py
+# Retrieve ICPC-2 candidates and query an LLM (Mistral) with RAG grounding - STREAMING VERSION
 
 import os, json, re
 from typing import List, Dict, Any, Tuple, Generator
 import sys
-from dotenv import load_dotenv
 
 import numpy as np
 import faiss
@@ -12,42 +12,28 @@ from sentence_transformers import SentenceTransformer
 
 from icpc_utils import ICPCEntry
 
-# Load environment variables
-load_dotenv()
-
 # ------------ Config -------------
 EMB_MODEL = os.environ.get("EMB_MODEL", "intfloat/multilingual-e5-base")
 INDEX_PATH = os.environ.get("INDEX_PATH", "icpc2.faiss")
 META_PATH = os.environ.get("META_PATH", "icpc2_meta.json")
 
-TOPN_RETRIEVE = int(os.environ.get("TOPN_RETRIEVE", "40"))  # how many codes we pass to the prompt
+TOPN_RETRIEVE = int(os.environ.get("TOPN_RETRIEVE", "40"))
 TEMPERATURE = float(os.environ.get("TEMPERATURE", "0.2"))
 MAX_TOKENS = int(os.environ.get("MAX_TOKENS", "800"))
 
-# LLM API settings (pick one)
-# Option A: Mistral API
+# LLM API settings
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 MISTRAL_BASE = os.getenv("MISTRAL_BASE", "https://api.mistral.ai/v1")
 MISTRAL_MODEL = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
 
-# Option B: OpenRouter (or OpenAI-compatible) with a Mistral model
+# OpenAI-compatible settings
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_BASE = os.getenv("OPENAI_BASE")  # e.g. https://openrouter.ai/api/v1
-OPENAI_MODEL = os.getenv("OPENAI_MODEL")  # e.g. mistralai/mistral-large-latest
+OPENAI_BASE = os.getenv("OPENAI_BASE")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL")
 # ---------------------------------
 
 
-def load_meta(path: str) -> List[ICPCEntry]:
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    rows: List[ICPCEntry] = []
-    for r in data:
-        rows.append(ICPCEntry(**r))
-    return rows
-
-
 def embed_queries(texts: List[str], model: SentenceTransformer) -> np.ndarray:
-    # E5 expects "query: " prefix for query embeddings
     return model.encode([f"query: {t}" for t in texts], convert_to_numpy=True, normalize_embeddings=True)
 
 
@@ -58,7 +44,6 @@ def retrieve(note_text: str, model: SentenceTransformer, index, meta: List[ICPCE
 
 
 def format_grounding(entries: List[ICPCEntry]) -> str:
-    # Keep compact; one item per line
     lines = []
     for e in entries:
         comp = e.component_guess if e.component_guess is not None else e.component_hint
@@ -141,6 +126,8 @@ def call_mistral_stream(messages: List[Dict[str, str]], temperature: float, max_
             "stream": True  # Enable streaming
         }
         
+        print("🔄 Kaller Mistral API (streaming)...")
+        
         with requests.post(url, headers=headers, json=payload, timeout=60, stream=True) as r:
             r.raise_for_status()
             
@@ -179,6 +166,8 @@ def call_mistral_stream(messages: List[Dict[str, str]], temperature: float, max_
             "max_tokens": max_tokens,
             "stream": True
         }
+        
+        print("🔄 Kaller OpenAI-compatible API (streaming)...")
         
         with requests.post(url, headers=headers, json=payload, timeout=60, stream=True) as r:
             r.raise_for_status()
@@ -251,34 +240,15 @@ def call_mistral_non_stream(messages: List[Dict[str, str]], temperature: float, 
     raise RuntimeError("No LLM credentials configured.")
 
 
-def call_mistral(messages: List[Dict[str, str]], temperature: float, max_tokens: int, stream: bool = False) -> str:
-    """Call Mistral API with optional streaming. Returns full response as string."""
-    if stream:
-        full_response = ""
-        for chunk in call_mistral_stream(messages, temperature, max_tokens):
-            full_response += chunk
-        return full_response
-    else:
-        return call_mistral_non_stream(messages, temperature, max_tokens)
-
-
 def parse_json_or_raise(text: str) -> Dict[str, Any]:
-    # Extract JSON block if the model wrapped it in code fences
     m = re.search(r"\{.*\}", text, flags=re.S)
     if not m:
         raise ValueError("Model did not return JSON.")
     return json.loads(m.group(0))
 
 
-def infer(note_text: str, stream: bool = False, show_stream: bool = False) -> Dict[str, Any]:
-    """
-    Infer ICPC-2 codes from consultation note.
-    
-    Args:
-        note_text: The consultation note text
-        stream: Whether to use streaming API calls
-        show_stream: Whether to display streaming output (only works if stream=True)
-    """
+def infer_stream(note_text: str, use_streaming: bool = True) -> Dict[str, Any]:
+    """Infer ICPC-2 codes with optional streaming."""
     # Load index + meta + embedding model
     index = faiss.read_index(INDEX_PATH)
     with open(META_PATH, "r", encoding="utf-8") as f:
@@ -293,7 +263,7 @@ def infer(note_text: str, stream: bool = False, show_stream: bool = False) -> Di
     messages = build_messages(note_text, grounding)
 
     # Call LLM
-    if stream and show_stream:
+    if use_streaming:
         print("📝 LLM respons (streaming):")
         print("-" * 50)
         
@@ -305,7 +275,7 @@ def infer(note_text: str, stream: bool = False, show_stream: bool = False) -> Di
         print("\n" + "-" * 50)
         out_text = full_response
     else:
-        out_text = call_mistral(messages, temperature=TEMPERATURE, max_tokens=MAX_TOKENS, stream=stream)
+        out_text = call_mistral_non_stream(messages, temperature=TEMPERATURE, max_tokens=MAX_TOKENS)
 
     # Parse JSON
     obj = parse_json_or_raise(out_text)
@@ -316,6 +286,7 @@ def infer(note_text: str, stream: bool = False, show_stream: bool = False) -> Di
         if item.get("code") not in allowed:
             item["needs_review"] = True
             item["notes"] = (obj.get("notes") or "") + " | Kode ikke i kandidatliste fra RAG."
+    
     return obj
 
 
@@ -325,17 +296,13 @@ if __name__ == "__main__":
 Status: Lett påvirket, temp 38.1, svelg rød uten belegg.
 Vurdering/Plan: Trolig viral ØLI. Symptomatisk råd. Sykemelding 2 dager."""
     
-    # Check command line arguments for streaming options
+    # Check if streaming is requested
     use_streaming = "--stream" in sys.argv or "-s" in sys.argv
-    show_streaming = "--show-stream" in sys.argv or "-v" in sys.argv
     
     print(f"🏥 ICPC-2 RAG Test {'(Streaming)' if use_streaming else '(Non-streaming)'}")
     print("=" * 60)
     
-    # Erstatt sample_note med ditt eget notat her:
-    # sample_note = """Anamnese: [Ditt notat her]
-    # Status: [Status her]
-    # Vurdering/Plan: [Plan her]"""
+    res = infer_stream(sample_note, use_streaming=use_streaming)
     
-    res = infer(sample_note, stream=use_streaming, show_stream=show_streaming)
+    print("\n✅ Final Result:")
     print(json.dumps(res, ensure_ascii=False, indent=2))
