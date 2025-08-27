@@ -1,0 +1,65 @@
+# Exclude everything by default
+*
+
+# Only include absolutely necessary files
+!app.py
+!icpc_utils.py
+!rag_infer.py
+!rag_infer_stream.py
+!icpc2.faiss
+!icpc2_meta.json
+!prompt_template.txt
+!requirements.txt
+!templates/index.html
+
+# Exclude all documentation and config files
+README.md
+LICENSE
+*.md
+*.txt
+!prompt_template.txt
+!requirements.txt
+
+# Exclude all test files
+test_*
+*test*
+
+# Exclude all build and deployment files
+Dockerfile*
+.dockerignore*
+docker-compose*
+*.yaml
+*.yml
+*.json
+!icpc2_meta.json
+
+# Exclude all IDE and OS files
+.vscode/
+.idea/
+.git/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Exclude all Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Exclude all logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Exclude all environment files
+.env*
+
+# Exclude data directories
+mnt/
+data/
