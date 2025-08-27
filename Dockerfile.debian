@@ -1,7 +1,7 @@
-# Robust multi-stage build for Alpine Linux compatibility
+# Debian-based multi-stage build for maximum compatibility
 FROM python:3.11-slim AS builder
 
-# Install build dependencies for Debian/Ubuntu
+# Install build dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
     gcc \
@@ -15,14 +15,14 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
 
-# Final stage with Alpine for smaller size
-FROM python:3.11-alpine
+# Final stage - also Debian for compatibility
+FROM python:3.11-slim
 
-# Install runtime dependencies
-RUN apk add --no-cache \
-    libstdc++ \
-    && rm -rf /var/cache/apk/* \
-    && adduser -D -s /bin/sh appuser
+# Install only runtime dependencies
+RUN apt-get update && apt-get install -y \
+    libstdc++6 \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd -m -s /bin/bash appuser
 
 WORKDIR /app
 
