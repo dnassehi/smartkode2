@@ -18,6 +18,12 @@ def apply_optimizations(level="optimized"):
     if level == "minimal":
         dockerfile = "Dockerfile.minimal"
         dockerignore = ".dockerignore.minimal"
+    elif level == "robust":
+        dockerfile = "Dockerfile.robust"
+        dockerignore = ".dockerignore.optimized"
+    elif level == "debian":
+        dockerfile = "Dockerfile.debian"
+        dockerignore = ".dockerignore.optimized"
     else:
         dockerfile = "Dockerfile.optimized"
         dockerignore = ".dockerignore.optimized"
@@ -65,6 +71,8 @@ def show_deployment_instructions():
     print("   • Monitor build logs in Railway dashboard")
     print()
     print("💡 Tips:")
+    print("   • Use 'deploy-robust' if build fails (recommended)")
+    print("   • Use 'deploy-debian' for maximum compatibility")
     print("   • Use 'deploy-minimal' if you have size issues")
     print("   • Check Railway logs if build fails")
     print("   • Ensure all environment variables are set")
@@ -88,16 +96,30 @@ def main():
             else:
                 print("❌ Failed to apply optimizations")
         
+        elif command == "deploy-robust":
+            if apply_optimizations("robust"):
+                show_deployment_instructions()
+            else:
+                print("❌ Failed to apply optimizations")
+        
+        elif command == "deploy-debian":
+            if apply_optimizations("debian"):
+                show_deployment_instructions()
+            else:
+                print("❌ Failed to apply optimizations")
+        
         elif command == "help":
             show_deployment_instructions()
         
         else:
-            print("❌ Unknown command. Use: apply, deploy-minimal, or help")
+            print("❌ Unknown command. Use: apply, deploy-minimal, deploy-robust, deploy-debian, or help")
     
     else:
         print("Usage:")
         print("  python deploy_railway.py apply         - Apply optimized version")
         print("  python deploy_railway.py deploy-minimal - Apply minimal version")
+        print("  python deploy_railway.py deploy-robust  - Apply robust version (recommended)")
+        print("  python deploy_railway.py deploy-debian  - Apply Debian version (most compatible)")
         print("  python deploy_railway.py help          - Show deployment instructions")
 
 if __name__ == "__main__":
