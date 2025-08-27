@@ -24,6 +24,12 @@ def apply_optimizations(level="optimized"):
     elif level == "debian":
         dockerfile = "Dockerfile.debian"
         dockerignore = ".dockerignore.optimized"
+    elif level == "fast":
+        dockerfile = "Dockerfile.fast"
+        dockerignore = ".dockerignore.optimized"
+    elif level == "ultra-fast":
+        dockerfile = "Dockerfile.ultra-fast"
+        dockerignore = ".dockerignore.optimized"
     else:
         dockerfile = "Dockerfile.optimized"
         dockerignore = ".dockerignore.optimized"
@@ -71,7 +77,9 @@ def show_deployment_instructions():
     print("   • Monitor build logs in Railway dashboard")
     print()
     print("💡 Tips:")
-    print("   • Use 'deploy-robust' if build fails (recommended)")
+    print("   • Use 'deploy-ultra-fast' if Railway times out (recommended)")
+    print("   • Use 'deploy-fast' for faster builds")
+    print("   • Use 'deploy-robust' if build fails")
     print("   • Use 'deploy-debian' for maximum compatibility")
     print("   • Use 'deploy-minimal' if you have size issues")
     print("   • Check Railway logs if build fails")
@@ -108,11 +116,23 @@ def main():
             else:
                 print("❌ Failed to apply optimizations")
         
+        elif command == "deploy-fast":
+            if apply_optimizations("fast"):
+                show_deployment_instructions()
+            else:
+                print("❌ Failed to apply optimizations")
+        
+        elif command == "deploy-ultra-fast":
+            if apply_optimizations("ultra-fast"):
+                show_deployment_instructions()
+            else:
+                print("❌ Failed to apply optimizations")
+        
         elif command == "help":
             show_deployment_instructions()
         
         else:
-            print("❌ Unknown command. Use: apply, deploy-minimal, deploy-robust, deploy-debian, or help")
+            print("❌ Unknown command. Use: apply, deploy-minimal, deploy-robust, deploy-debian, deploy-fast, deploy-ultra-fast, or help")
     
     else:
         print("Usage:")
@@ -120,6 +140,8 @@ def main():
         print("  python deploy_railway.py deploy-minimal - Apply minimal version")
         print("  python deploy_railway.py deploy-robust  - Apply robust version (recommended)")
         print("  python deploy_railway.py deploy-debian  - Apply Debian version (most compatible)")
+        print("  python deploy_railway.py deploy-fast    - Apply fast version (for Railway timeout)")
+        print("  python deploy_railway.py deploy-ultra-fast - Apply ultra-fast version (best for Railway)")
         print("  python deploy_railway.py help          - Show deployment instructions")
 
 if __name__ == "__main__":

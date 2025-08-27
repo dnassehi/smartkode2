@@ -1,4 +1,4 @@
-# Ultra-fast build using pre-built ML image
+# Fast build with better caching for Railway
 FROM python:3.11-slim AS builder
 
 # Install build dependencies
@@ -12,14 +12,13 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Copy requirements first for better caching
-COPY requirements-fast.txt requirements.txt
+COPY requirements.txt .
 
-# Install dependencies with maximum speed optimizations
+# Install dependencies with optimizations
 RUN pip install --no-cache-dir --user \
-    --timeout 600 \
-    --retries 5 \
+    --timeout 300 \
+    --retries 3 \
     --prefer-binary \
-    --find-links https://download.pytorch.org/whl/torch_stable.html \
     -r requirements.txt
 
 # Final stage
