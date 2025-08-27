@@ -30,6 +30,9 @@ def apply_optimizations(level="optimized"):
     elif level == "ultra-fast":
         dockerfile = "Dockerfile.ultra-fast"
         dockerignore = ".dockerignore.optimized"
+    elif level == "simple":
+        dockerfile = "Dockerfile.simple"
+        dockerignore = ".dockerignore.optimized"
     else:
         dockerfile = "Dockerfile.optimized"
         dockerignore = ".dockerignore.optimized"
@@ -128,11 +131,17 @@ def main():
             else:
                 print("❌ Failed to apply optimizations")
         
+        elif command == "deploy-simple":
+            if apply_optimizations("simple"):
+                show_deployment_instructions()
+            else:
+                print("❌ Failed to apply optimizations")
+        
         elif command == "help":
             show_deployment_instructions()
         
         else:
-            print("❌ Unknown command. Use: apply, deploy-minimal, deploy-robust, deploy-debian, deploy-fast, deploy-ultra-fast, or help")
+            print("❌ Unknown command. Use: apply, deploy-minimal, deploy-robust, deploy-debian, deploy-fast, deploy-ultra-fast, deploy-simple, or help")
     
     else:
         print("Usage:")
@@ -142,6 +151,7 @@ def main():
         print("  python deploy_railway.py deploy-debian  - Apply Debian version (most compatible)")
         print("  python deploy_railway.py deploy-fast    - Apply fast version (for Railway timeout)")
         print("  python deploy_railway.py deploy-ultra-fast - Apply ultra-fast version (best for Railway)")
+        print("  python deploy_railway.py deploy-simple  - Apply simple version (fastest build)")
         print("  python deploy_railway.py help          - Show deployment instructions")
 
 if __name__ == "__main__":
