@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: icpc2-rag-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: MISTRAL_API_KEY
+        value: dRnAfaO2jF7LzoqD1YQ5FYzPulF10NEc
+      - key: MISTRAL_MODEL
+        value: mistral-large-latest
+      - key: EMB_MODEL
+        value: intfloat/multilingual-e5-base
+      - key: TEMPERATURE
+        value: "0.2"
+      - key: TOPN_RETRIEVE
+        value: "40"
+      - key: MAX_TOKENS
+        value: "800"
+    healthCheckPath: /
+    autoDeploy: true

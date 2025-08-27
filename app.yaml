@@ -1,0 +1,30 @@
+name: icpc2-rag-app
+services:
+- name: web
+  source_dir: /
+  github:
+    repo: dnassehi/smartkode2
+    branch: main
+  run_command: python app.py
+  environment_slug: python
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  envs:
+  - key: MISTRAL_API_KEY
+    value: ${MISTRAL_API_KEY}
+  - key: MISTRAL_MODEL
+    value: mistral-large-latest
+  - key: EMB_MODEL
+    value: intfloat/multilingual-e5-base
+  - key: TEMPERATURE
+    value: "0.2"
+  - key: TOPN_RETRIEVE
+    value: "40"
+  - key: MAX_TOKENS
+    value: "800"
+  - key: ICPC_CSV_PATH
+    value: "mnt/data/ICPC-2.csv"
+  - key: INDEX_PATH
+    value: "icpc2.faiss"
+  - key: META_PATH
+    value: "icpc2_meta.json"

@@ -1,0 +1,4965 @@
+[
+  {
+    "code": "R28",
+    "title": "Funksjonshemning på grunn av hypoksi/hyperkapné/redusert lungefunksjon/åndedrettssykdom/sykdom i nese, strupe, hode, hals",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "T73",
+    "title": "Annen endokrin svulst, endokrin svulst ikke spesifisert som godartet eller ondartet når histologi ikke er tilgjengelig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "X81",
+    "title": "Svulst i kvinnelig kjønnsorgan/bryst, ikke spesifisert som godartet eller ondartet når histologi  er ikke tilgjengelig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "W73",
+    "title": "Svulst knyttet til svangerskap som ikke er spesifisert som godartet eller ondartet når histologi ikke er tilgjengelig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "U79",
+    "title": "Svulst i blære/nyre/urinleder/urinrør ikke spesifisert som godartet eller ondartet når histologi ikke er tilgjengelig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "N76",
+    "title": "Svulst i nervesystemet ikke spesifisert som godartet eller ondartet når histologi ikke er tilgjengelig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "Y79",
+    "title": "Svulst i kjønnorgan ikke spesifisert som godartet eller ondartet når histologi ikke er tilgjengelig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "S79",
+    "title": "Hudsvulst ikke spesifisert som godartet eller ondartet når histologi ikke er tilgjengelig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "D70",
+    "title": "Tarminfeksjon eller dysenteri som skyldes spesifisert bakterie, protozo eller virus",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "B75",
+    "title": "Svulst ikke spesifisert som godartet eller ondartet når prøve ikke er tilgjengelig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "T99",
+    "title": "Binyrebark-/ovarie-/hypofyse-/paratyreoidea-/testikkel-/annen endokrin dysfunksjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "L97",
+    "title": "Svulst i muskel- og skjelettsystmet ikke spesifisert som godartet eller ondartet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "A90",
+    "title": "Kromosomavvik og andre medfødte misdannelser, ikke klassfisiert annet sted",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "A13",
+    "title": "Bekymringer/spørsmål knyttet til medisinsk behandling og dens konsekvenser",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "L01",
+    "title": "Smerte relatert til cervikal del av ryggsøyle/muskel- og skjelettsystem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "R92",
+    "title": "Svulst i luftveiene som ikke er spesifisert som godartet eller ondartet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "D71",
+    "title": "Meningitt/orkitt/pankreatitt og andre komplikasjoner som skyldes kusma",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "W84",
+    "title": "Diabetes/annen kronisk sykdom fra tidligere som påvirker svangerskapet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "Z20",
+    "title": "Problem i forholdet til foreldre/voksne søsken/andre familiemedlemmer",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "A98",
+    "title": "Screening/periodisk undersøkelse rettet mot bestemte helseproblemer",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "A89",
+    "title": "Komplikasjoner, plager og begrensninger som skyldes bruk av protese",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "L88",
+    "title": "Beslektede sykdommer som ankyloserende spondylitt/Bekhterevs sykdom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "R85",
+    "title": "Ondartet svulst i larynks/mediastinum/nese/farynks/lungesekk/bihule",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "R89",
+    "title": "Medfødt feil i nese/farynks/trakea/larynks/bronkie/lunge/lungesekk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "A85",
+    "title": "Bivirkninger/allergi/anafylaksi av legemiddel gitt i korrekt dose",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "W76",
+    "title": "Medfødt feil hos mor som kan påvirket svangerskap eller fødsel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "K83",
+    "title": "Ikke-reumatisk aorta-/mitral-/pulmonal/trikuspidalklafflidelse",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "P71",
+    "title": "Amnestisk syndrom organisk betinget, ikke utløst av rusmidler",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "L80",
+    "title": "Dislokasjoner/subluksasjoner alle steder inkludert ryggsøyle",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "T28",
+    "title": "Redusert funksjonsevne pga endokr/metabolsk/ernæringsproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "K85",
+    "title": "Forhøyet blodtrykk som ikke møter kriteriene for K86 og K87",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "W83",
+    "title": "Svangerskapsavbrudd, alle komplikasjonersvangerskapsavbrudd",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "R99",
+    "title": "Pneumonitt på grunn av allergi/kjemikalier/støv/gasser/mugg",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "K90",
+    "title": "Cerebral emboli/infarkt/trombose/okklusjon/stenose/blødning",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "T27",
+    "title": "Engstelig for sykd endokr/metabolske syst/ernæringssykd IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "P81",
+    "title": "DAMP (deficits in attention, motor control and perception)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "A97",
+    "title": "Kontakt for annet enn sykdom, psykiske og sosiale årsaker",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "W82",
+    "title": "Abort fullstendig/ufullstendig/habituell/missed abortion",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "X28",
+    "title": "Redusert funksjonsevne pga problem i kjønnsorgan kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "K75",
+    "title": "Hjerteinfarkt påvist akutt eller innen 4 uker fra start",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "W81",
+    "title": "HELLP (hemolysis-elevated liver enzymes, low platelets)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "K80",
+    "title": "Atrial/junksjonell/ventrikulær prematur depolarisasjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "L27",
+    "title": "Engstelig for sykdom i muskel- og skjelettsystemet IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "Y28",
+    "title": "Redusert funksjonsevne pga problem i kjønnsorgan mann",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "L04",
+    "title": "Brystsmerter relatert til muskel- og skjelettsystemet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "W75",
+    "title": "Følgetilstander etter skader som påvirker svangerskap",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "A86",
+    "title": "Generell/lokal giftig effekt av kullos/karbonmonoksid",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "Y13",
+    "title": "Familieplanlegging som omfatter steriliering av mann",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "A92",
+    "title": "ADCC (antibody dependent cell-mediated cytotoxicity)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "A87",
+    "title": "Problem på grunn av stråling ved diagnose/behandling",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "A79",
+    "title": "Metastase/sekundær svulst når utgangspunkt er ukjent",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "A82",
+    "title": "Misdannelse/arrdannelse som følge av tidligere skade",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "R80",
+    "title": "Influensa med gastroenteritt (påvist influensavirus)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "D998",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "D997",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "D992",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "D999",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "D995",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "D993",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "S88",
+    "title": "Kontaktdermatitt uspesifisert som skyldes kosmetikk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "X86",
+    "title": "Cervikal intraepitelial neoplasi (CIN( grad I og II",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "W27",
+    "title": "Engstelig for komplikasjoner ved svangerskap/fødsel",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "D991",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "X27",
+    "title": "Engstelig for sykdom i kjønnsorgan/bryst IKA kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "D994",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "D996",
+    "title": "Utbruddssykdom definert av FHI, fordøyelsessystemet",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "D"
+  },
+  {
+    "code": "D72",
+    "title": "Enhver form for heptatitt som antatt skyldes virus",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "Z23",
+    "title": "Problem ved tap/dødsfall av foreldre/familiemedlem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "N28",
+    "title": "Redusert funksjonsevne pga problem i nervesystemet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "W29",
+    "title": "Familieplanlegging/prevensjon symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "L79",
+    "title": "Ruptur traumatisk radialt kollateralligament albue",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "F74",
+    "title": "Godartet/ondartet svulst i øye og nære omgivelser",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "D78",
+    "title": "Godartet/uspesifisert svulst i fordøyelsesystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "A88",
+    "title": "Effekt av kulde/varm/lyn/bevegelse/trykk/stråling",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "P73",
+    "title": "Bipolar affektiv lidelse,  deprimert mild/moderat",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "L26",
+    "title": "Engstelig for kreft i muskel- og skjelettsystemet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "L28",
+    "title": "Redusert funksjonsevne pga muskel-skjelettproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "B27",
+    "title": "Engstelig for sykdom i blod- og lymfesystemet IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "B"
+  },
+  {
+    "code": "N94",
+    "title": "Diabetesnevropati (dobbelkodes med T89 eller T90)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "T29",
+    "title": "Endokrin/metabolsk/ernæring symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "R81",
+    "title": "Influensa bronkopneumoni (påvist influensavirus)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "K99",
+    "title": "Åreknuter på andre steder enn underekstremiteter",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "L29",
+    "title": "Muskel- og skjelettsystemet symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "W02",
+    "title": "Bekymret over muligheten for uønsket svangerskap",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "D92",
+    "title": "Divertikulitt/divertikulose i tynn- og tykktarm",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "W85",
+    "title": "Diabetes mellitus som oppstår under svangerskap",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "A99",
+    "title": "Helseproblem/sykdom ikke spesifisert/lokalisert",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "L86",
+    "title": "Skiveprolaps/degenerasjon av mellomvirvelskive",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "D27",
+    "title": "Engstelig for sykdom i fordøyelsessystemet IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "W13",
+    "title": "Familieplanlegging ved sterilisering av kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "A21",
+    "title": "Familiær belastning vedrørende ondartet svulst",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "W28",
+    "title": "Redusert funksjonsevne pga svangerskapsproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "L89",
+    "title": "Hofteleddsartrose sekundært til dysplas/traume",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "F71",
+    "title": "Allergisk konkunktivitt med/uten rennende nese",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "Z27",
+    "title": "Bekymret/engstelig for å ha et sosialt problem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "L92",
+    "title": "Skulder supraspinatustendinitt med kalknedslag",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "T80",
+    "title": "Medfødt feil i endokrine/metabolske system IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "Z22",
+    "title": "Problem med sykdom hos foreldre/familiemedlem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "Z25",
+    "title": "Problem som følge av vold/traumatisk hendelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "D83",
+    "title": "ANUG (akutt nekrotiserende ulcerøs gingivitt)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "N71",
+    "title": "RSSE (Russian spring and summer encephalitis)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "L71",
+    "title": "Ondartet svulst i muskel- og skjelettsystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "D28",
+    "title": "Redusert funksjonsevne pga fordøyelsesproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "T05",
+    "title": "Vanskeligheter med inntak og tilførsel av mat",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "A91",
+    "title": "Uforklarte patologiske prøver/unormale bilder",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "X22",
+    "title": "Bekymret/opptatt av brystenes utseende kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "B28",
+    "title": "Redusert funksjonsevne pga blod/lymfe-problem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "B"
+  },
+  {
+    "code": "P08",
+    "title": "Seksuell aversjon og mangel på seksuell glede",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "T04",
+    "title": "Problem med spising/mating hos spedbarn/barn",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "K28",
+    "title": "Redusert funksjonsevne pga hjerte-karproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "D99",
+    "title": "Allergisk/toksisk/dietetisk gastroenteropati",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "X99",
+    "title": "LGV (lymphogranuloma inguinale venereum) (K)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "B26",
+    "title": "Engstelig for kreft i blod- og lymfesystemet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "B"
+  },
+  {
+    "code": "X80",
+    "title": "Godartet svulst i kvinnelige kjønnsorgan IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "X77",
+    "title": "Ondartet svulst i kvinnelige kjønnsorgan IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "Z21",
+    "title": "Problem med atferd til forelde/familiemedlem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "L90",
+    "title": "Kneleddsartrose sekundært til dyplasi/traume",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "D88",
+    "title": "Blindtarmsbetennelse med abscess/perforasjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "T26",
+    "title": "Engstelig for kreft i det endokrine systemet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "Y99",
+    "title": "LGV (lymphogranuloma inguinale venereum) (M)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "Z09",
+    "title": "Løslatelse fengs problemer i forbindelse med",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "B82",
+    "title": "PNH (paroksysmal nokturnal hemoglobulinuri)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "Y27",
+    "title": "Engstelig for sykdom i kjønnsorgan IKA mann",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "F04",
+    "title": "Faste og flytende flekker/tråder i synsfelt",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "S84",
+    "title": "SSSS (staphylococcal scalded skin syndrome)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "A16",
+    "title": "Uvanlig/overdreven skriking og uro spedbarn",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "A94",
+    "title": "TORCH (toxoplasmose, rubella, CMV, herpes)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "U28",
+    "title": "Redusert funksjonsevne pga urinveisproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "N08",
+    "title": "Ekstrapyramidal bevegelsesforstyrrelse INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "H79",
+    "title": "Åpent sår, kutt, knusningsskae, amputasjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "W21",
+    "title": "Bekymret/opptatt av utseende i svangerskap",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "P28",
+    "title": "Redusert funksjonsevne pga psykisk problem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "H82",
+    "title": "Godartet paroksysmal-/-stillingssvimmelhet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "Z10",
+    "title": "Problem med helsetjenester/tilgjengelighet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "Z28",
+    "title": "Redusert funksjonsevne pga sosialt problem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "D77",
+    "title": "Andre primærsvulster i fordøyelsessystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "Z15",
+    "title": "Problem ved tap/dødsfall av samlivspartner",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "L82",
+    "title": "Medfødt feil i muskel- og skjelettsystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "Y78",
+    "title": "Ondartet svulst i mannlige kjønnsorgan IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "D26",
+    "title": "Engstelig for kreft i fordøyelsessystemet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "W71",
+    "title": "Infeksjon som kompliserer svangerskap IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "R994",
+    "title": "Utbruddssykdom definert av FHI, luftveier",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "F83",
+    "title": "Diabetisk retinopati/øyebunnsforandringer",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "R995",
+    "title": "Utbruddssykdom definert av FHI, luftveier",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "R997",
+    "title": "Utbruddssykdom definert av FHI, luftveier",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "T93",
+    "title": "Forhøyet nivå av kolesterol/triglycerider",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "K74",
+    "title": "Iskemisk hjertesykdom med angina pectoris",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "W17",
+    "title": "Blødning retinerte svangerskapsrester INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "B83",
+    "title": "DIC (disseminated intravasal coagulation)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "X24",
+    "title": "Engstelig for seksuell dysfunksjon kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "P24",
+    "title": "Utviklingsforstyrrelse motorisk spesifikk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "K22",
+    "title": "Andre risikofaktorer for hjerte-karsykdom",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "A70",
+    "title": "Tuberkuloseinfeksjon uansett lokalisasjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "R999",
+    "title": "Utbruddssykdom definert av FHI, luftveier",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "A80",
+    "title": "Skade trunkus muskel-skjelettsystemet INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "R993",
+    "title": "Utbruddssykdom definert av FHI, luftveier",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "N70",
+    "title": "Andre nevrologiske enterovirusinfeksjoner",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "P82",
+    "title": "Kronisk posttraumatisk stressforstyrrelse",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "R996",
+    "title": "Utbruddssykdom definert av FHI, luftveier",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "R998",
+    "title": "Utbruddssykdom definert av FHI, luftveier",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "P23",
+    "title": "Atferdsforstyrrelse ungdom opposisjonell",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "H74",
+    "title": "Mellomørebetennelse kronisk attikoantral",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "P22",
+    "title": "Oppmerksomhetsforstyr ikke hyperkinetisk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "P18",
+    "title": "Misbruk av ethvert forskrevet legemiddel",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "B74",
+    "title": "Ondartet svulst i blod/lymfesystemet IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "L87",
+    "title": "Synovitt krepiterende hånd/-ledd kronisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "K96",
+    "title": "Indre hemoroider med/uten komplikasjoner",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "X25",
+    "title": "Engstelig for kreft i kjønnsorgan kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "D29",
+    "title": "Fordøyelsessystemet symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "N27",
+    "title": "Engstelig for sykdom i nervesystemet IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "L95",
+    "title": "Patologisk brudd på grunn av osteoporose",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "H27",
+    "title": "Engstelig for hørselsproblemer/øresykdom",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "P74",
+    "title": "Panikklidelseepisodisk paroksysmal angst",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "D73",
+    "title": "Diaré/oppkast med antatt infeksiøs årsak",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "Y24",
+    "title": "Engstelig for seksuell dysfunksjon mann",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "W99",
+    "title": "Svangerskap/fødsel/barseltid sykdom IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "L81",
+    "title": "Skade lumbalkolumna muskel-skj-syst INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "U70",
+    "title": "Nefritt infeksiøs interstitiell kronisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "Y84",
+    "title": "Medfødt feil i mannlige kjønnsorgan IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "B02",
+    "title": "Lymfadenopati med og uten smerter/ømhet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "B"
+  },
+  {
+    "code": "F73",
+    "title": "Herpes simplex i øyet uten hornhinnesår",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "X72",
+    "title": "Moniliasisinfeksjon i skjede/livmorhals",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "B99",
+    "title": "SCIS (severe combined immunodeficiency)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "L83",
+    "title": "Atlantoaksial dislokasjon med myelopati",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "B73",
+    "title": "Alle typer leukemileukemi, uspesifisert",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "Z04",
+    "title": "Aleneboende problemer i forbindelse med",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "W95",
+    "title": "Brystsykdom i svangerskap/barseltid IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "D25",
+    "title": "Økt abdominalomfang uten oppfylning(er)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "T90",
+    "title": "Diabetes type 2 med hyperglykemisk koma",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "D84",
+    "title": "GERD (gastro-esophageal reflux disease)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "R72",
+    "title": "Påvist streptokokkfaryngitt-/-tonsilitt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "T89",
+    "title": "Diabetes type 1 med hyperglykemisk koma",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "A76",
+    "title": "Erythema infectiosum /Femte barnesykdom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "X29",
+    "title": "Kjønnsorgan symptomer/plager IKA kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "L70",
+    "title": "Infeksjon i muskel- og skjelettsystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "A84",
+    "title": "Toksisk virkning av overdose legemiddel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "R83",
+    "title": "Protozoinfeksjon (uten lungebetennelse)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "W72",
+    "title": "Ondartet svulst knyttet til svangerskap",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "K29",
+    "title": "Hjerte-karsystemet symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "U99",
+    "title": "Vesikoureteral refluks med arrdannelse",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "K89",
+    "title": "Anfall med forbigående cerebral iskemi",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "Y26",
+    "title": "Engstelig for kreft i kjønnsorgan mann",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "N74",
+    "title": "Ondartet svulst i sentralnervesystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "K79",
+    "title": "Supraventrikulær/ventrikulær takykardi",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "W11",
+    "title": "Familieplanlegging ved bruk av p-pille",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "A10",
+    "title": "Blødning med ukjent lokalisasjon/årsak",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "U95",
+    "title": "Konkrement/sten i blære/nyre/urinleder",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "R84",
+    "title": "Ondartet svulst i trakea/bronkie/lunge",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "X11",
+    "title": "Symptomer/plager knyttet til menopause",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "K77",
+    "title": "Hjertesykdom/hjertesvikt med lungeødem",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "X73",
+    "title": "Trikomonasinfeksjon urogenitalt kvinne",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "H02",
+    "title": "Dobbelthørsel og følelse av hørselstap",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "K81",
+    "title": "Bilyd over hjerte/carotis-/nyrearterie",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "Y14",
+    "title": "Familieplanlegging prevensjonsveil (M)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "Y05",
+    "title": "Skrotum/testikkel symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "L99",
+    "title": "LED (lupus erythematosus disseminatus)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "P98",
+    "title": "Psykose polymorf schizofreniform akutt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "W15",
+    "title": "Veiledning forplantning/graviditet (K)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "N99",
+    "title": "spastisk kvadriplegisk cerebral parese",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "P01",
+    "title": "Følelse av angst/nervøsitet/anspenthet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "N05",
+    "title": "Stikkende følelse i fingre/føtter/tær",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "Y29",
+    "title": "Kjønnsorgan symptomer/plager IKA mann",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "Z14",
+    "title": "Problem med sykdom hos samlivspartner",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "X83",
+    "title": "Medfødt feil i kvinnelige kjønnsorgan",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "B79",
+    "title": "Medfødt feil i blod/lymfesystemet IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "Y71",
+    "title": "Gonokokkinfeksjon alle lokalisasjoner",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "U71",
+    "title": "Akutt/kronisk cystitt (ikke-venerisk)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "X71",
+    "title": "Gonokokkinfeksjon alle lokalisasjoner",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "K73",
+    "title": "Septumdefekter i atrier og ventrikler",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "L94",
+    "title": "Osteokondrose juvenil overekstremitet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "W05",
+    "title": "Brekninger svangerskap komplikasjoner",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "U88",
+    "title": "Nefropati som følge av analgetikabruk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "B84",
+    "title": "Vedvarende eller uforklart nøytrofili",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "U85",
+    "title": "Medfødt feil urinleder atresi/stenose",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "S28",
+    "title": "Redusert funksjonsevne pga hudproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "R27",
+    "title": "Engstelig for sykdom i luftveiene IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "B29",
+    "title": "Blod/lymfesystem symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "B"
+  },
+  {
+    "code": "L84",
+    "title": "Forstuving/forstrekking lumbalkolumna",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "P79",
+    "title": "Tvangshandlinger tvangstanker blandet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "X08",
+    "title": "Intermenstruell gjennombruddsblødning",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "Z13",
+    "title": "Problem med atferd til samlivspartner",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "R95",
+    "title": "Lungebetennelse ved obstr lungesykdom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "P75",
+    "title": "Dysmorfofobi uten vrangforestillinger",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "Z11",
+    "title": "Problem med det å være syk/compliance",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "F28",
+    "title": "Redusert funksjonsevne pga øyeproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "K92",
+    "title": "Periodisk tilbakevendende claudicatio",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "U27",
+    "title": "Engstelig for sykdom i urinveiene IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "H70",
+    "title": "Abscess/eksem/furunkel i ytre øregang",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "S05",
+    "title": "Papler/kuler/hevelser på flere steder",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "W01",
+    "title": "Symptomer som kan tyde på svangerskap",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "H28",
+    "title": "Redusert funksjonsevne pga øreproblem",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "A23",
+    "title": "Nervesystemsykdom familiær belastning",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "B81",
+    "title": "Anemi ved vitamin B12-/folsyremangel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "Z05",
+    "title": "Arbeid eksposisjon biologisk materie",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "Z01",
+    "title": "Økonomisk probl trygd/stønad utilstr",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "P06",
+    "title": "Søvnforstyrrelse hypersomni organisk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "P05",
+    "title": "Alderdomsfølelse svekket orientering",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "P72",
+    "title": "Schizofreni residual/kronisk stadium",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "W10",
+    "title": "Prevensjon postkoital antikonsepsjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "F79",
+    "title": "Fremmedlegeme øye retinert magnetisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "P85",
+    "title": "Evneveik lett psyk utviklingshemning",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "R97",
+    "title": "Allergisk rhinitt sesongavhengig IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "U06",
+    "title": "Hematuri glomerulonefritt/glomerulær",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "P80",
+    "title": "Personlighetsforstyr passiv/avhengig",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "N79",
+    "title": "Følgetilstander etter hjernerystelse",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "N75",
+    "title": "Godartet svulst sentralnervesystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "N73",
+    "title": "Infeksjon i sentralnervesystemet IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "Z12",
+    "title": "Samlivsproblemer vanskjøtsel partner",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "X74",
+    "title": "Bukhinneadheranser bekkenorganer (K)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "A78",
+    "title": "Følgetilstand etter infeksjonssykdom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "N88",
+    "title": "Epilepsi generalisert tonisk-klonisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "Z16",
+    "title": "Barn problem med ny familiesituasjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "H72",
+    "title": "Mellomørebetennelse akutt ikke-purul",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "H71",
+    "title": "Akutt suppurativ mellomørebetennelse",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "L96",
+    "title": "Forstuving/forstrekking kne korsbånd",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "R87",
+    "title": "Fremmedlegeme i nese/larynks/bronkie",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "K84",
+    "title": "BBBB (bilateral bundle branch block)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "X92",
+    "title": "Klamydiainfeksjon urogenitalt kvinne",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "S08",
+    "title": "Hyperpigmentering postinflammatorisk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "D91",
+    "title": "Brokk abdominalt med obstruksjon IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "L78",
+    "title": "Forstuving/forstrekking kne ligament",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "P76",
+    "title": "Depresjon reaktiv moderat tilbakeven",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "B90",
+    "title": "Aids (ervervet immunsviktsykdom) INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "X87",
+    "title": "Prolaps kvinnelige kjønnsorganer INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "P03",
+    "title": "Depresjonsfølelse indre spenning/uro",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "P02",
+    "title": "Psykisk ubalanse tilpasningsreaksjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "K87",
+    "title": "Hypertensjon med organkomplikasjoner",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "N06",
+    "title": "Forstyrrelser i hudens følsomhet IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "D94",
+    "title": "Crohns sykdom i tykktarm og tynntarm",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "H86",
+    "title": "Delvis/fullstendig døvhet begge ører",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "K71",
+    "title": "Reumatisk artritt akutt u/hjertesykd",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "Z29",
+    "title": "Simulering ubevisst symptom/dysfunks",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "X82",
+    "title": "Amputasjon traum ytre genitalia (K)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "B80",
+    "title": "Jernmangelanemi ved kronisk blodtap",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "D98",
+    "title": "Gallestein med galleblærebetennelse",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "H15",
+    "title": "Bekymret/opptatt av ørenes utseende",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "R90",
+    "title": "Hypertrofi av tonsiller/adenoid vev",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "Y72",
+    "title": "Herpesvirusinfeksjon anogenital (M)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "D75",
+    "title": "Ondartet svulst i tykktarm/endetarm",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "X85",
+    "title": "Livmorhals hypertrofisk forlengelse",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "T91",
+    "title": "Vitaminmangel/ernæringsforstyrrelse",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "K91",
+    "title": "Følgetilstand subaraknoidalblødning",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "S14",
+    "title": "Forbrenning/skålding av alle grader",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "D01",
+    "title": "Abdominal krampe/ubehag/smerter IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "W90",
+    "title": "Ukomplisert fødsel levendefødt barn",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "Z08",
+    "title": "Rehabiliteringspenger problemer med",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "S91",
+    "title": "Psoriasisartritt distal interfalang",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "A28",
+    "title": "Behov for hjelp til ADL aktiviteter",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "N80",
+    "title": "Cerebral skade med/uten skallebrudd",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "K72",
+    "title": "Godartet/ondartet hjerte-kar svulst",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "X90",
+    "title": "Anogenital herpesvirusinfeksjon (K)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "N26",
+    "title": "Engstelig for kreft i nervesystemet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "X05",
+    "title": "Menstruasjon manglende/uteblitt INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "F92",
+    "title": "Grå stær aldersbetinget punktformet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "D82",
+    "title": "retinert tann uten frembruddshinder",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "D74",
+    "title": "Ondartet svulst i cardia og pylorus",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "X89",
+    "title": "PMS (premenstruelt tensjonssyndrom)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "A72",
+    "title": "Følgetilstand etter vannkopper test",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "F99",
+    "title": "Konjunktival pigmentering/avleiring",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "R78",
+    "title": "Infeksjon nedre luftveier akutt INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "W92",
+    "title": "Levendefødt etter komplisert fødsel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "A95",
+    "title": "SIDS (sudden infant death syndrome)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "D85",
+    "title": "Blødnede/obstruerende/perforert sår",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "L98",
+    "title": "Ekstremitetsdeformitet ervervet INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "R75",
+    "title": "Bihulebetennelse i paranasal bihule",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "F80",
+    "title": "Tåreveisstenose/atresi hos spedbarn",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "P09",
+    "title": "Seksuelle objektvalg forstyrret IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "S75",
+    "title": "Trøske i negler/perianalområdet/hud",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "Z07",
+    "title": "Skolegang utilstrekk analfabetisme",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "H99",
+    "title": "Mellomørebetennelse med adhesjoner",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "W12",
+    "title": "Familieplanlegging ved bruk av IUD",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "X20",
+    "title": "Brystvorte symptomer/plager kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "T87",
+    "title": "Hyperinsulisme koma ikke-diabetisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "N29",
+    "title": "Nervesystemet symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "D81",
+    "title": "Medfødt feil i fordøyelsessystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "F94",
+    "title": "Blindhet ett øye nedsatt syn andre",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "P99",
+    "title": "Psykiske problem pga somatisk sykd",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "A81",
+    "title": "Forstuving/forstrekking flere ledd",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "D79",
+    "title": "Fremmedlegeme i fordøyelsesystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "F95",
+    "title": "Skjeling/strabisme intermitterende",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "R82",
+    "title": "Inflammatorisk eksudat i lungesekk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "K03",
+    "title": "Smerte relatert til kretsløpet IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "S83",
+    "title": "Medfødt feil epidermolysis bullosa",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "P29",
+    "title": "Multiple psykiske symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "P25",
+    "title": "Engstelig for pensjonisttilværelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "L18",
+    "title": "Utbredte muskelsmerter/fibromyalgi",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "S07",
+    "title": "Blemmer/erytem/rødhet flere steder",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "Y10",
+    "title": "Veiledning og rådgivning abort (M)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "T10",
+    "title": "Vektøkning forsinket/manglende INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "B04",
+    "title": "Blod/blodsystemet symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "B"
+  },
+  {
+    "code": "K27",
+    "title": "Engstelig for hjerte-karsykdom IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "Z03",
+    "title": "Boforhold problematisk avsidesligg",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "K88",
+    "title": "Idiopatisk/ortostatisk hypotensjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "T70",
+    "title": "Infeksjon i det endokrine systemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "S80",
+    "title": "Solutløst keratose/solforbrenning",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "Y80",
+    "title": "Knusningsskade ytre genitalia (M)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "H80",
+    "title": "Medfødt feil aurikkel aksessorisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "W93",
+    "title": "Dødfødsel etter komplisert fødsel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "X70",
+    "title": "Syfilis tidlig stadium latent (K)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "X21",
+    "title": "Bryst symptomer/plager IKA kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "X23",
+    "title": "Engstelig for kjønnssykdom kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "L85",
+    "title": "Ervervet deformitet av ryggsøylen",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "R33",
+    "title": "Mikrobiologisk/immunologisk prøve",
+    "component_hint": "process",
+    "component_guess": 2,
+    "chapter": "R"
+  },
+  {
+    "code": "K76",
+    "title": "Iskemisk hjertesykdom kronisk IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "S18",
+    "title": "Åpent sår/kutt i hud/underhudsvev",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "S24",
+    "title": "Hår/hodebunn symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "D97",
+    "title": "Følgetilstand etter virushepatitt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "P70",
+    "title": "Demens ved Alzheimer tidlig debut",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "D11",
+    "title": "Gastroenteritt ikke-infeksiøs INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "D12",
+    "title": "Fastkilt eller forstenet avføring",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "D20",
+    "title": "Munn/tunge/leppe symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "Y08",
+    "title": "Seksuelt problem org betinget (M)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "A93",
+    "title": "For tidlig født barn (28-36 uker)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "D19",
+    "title": "Tenner/tannkjøtt symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "D76",
+    "title": "Ondartet svulst i bukspyttkjertel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "W96",
+    "title": "Dyp venetrombose ved/etter fødsel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "Y70",
+    "title": "Syfilis tidlig stadium latent (M)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "A05",
+    "title": "Følelse av svekket helsetilstand",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "A18",
+    "title": "Bekymret/opptatt av utseende IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "P11",
+    "title": "Problem med spiseatferd hos barn",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "K70",
+    "title": "Endokarditt akutt ikke-reumatisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "Z19",
+    "title": "Problem ved tap/dødsfall av barn",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "F76",
+    "title": "Fremmedlegeme fremre del øye INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "S11",
+    "title": "Infisert posttraumatisk sår/bitt",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "X91",
+    "title": "Anogenitale veneriske vorter (K)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "D86",
+    "title": "Magesår akutt perforert blødende",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "R26",
+    "title": "Engstelig for kreft i luftveiene",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "T85",
+    "title": "Tyreotoksikose flerknutet struma",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "U77",
+    "title": "Ondartet svulst i urinveiene IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "X17",
+    "title": "Underliv symptomer/plager kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "L76",
+    "title": "Brudd nakke annen cervikalvirvel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "D93",
+    "title": "Irritabel tarm-syndrom med diaré",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "U01",
+    "title": "Vannlating smertefull og langsom",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "Y76",
+    "title": "Anogenitale veneriske vorter (M)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "R88",
+    "title": "Dislokasjon neseskillevegg traum",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "U26",
+    "title": "Engstelig for kreft i urinveiene",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "Y07",
+    "title": "Ereksjonssvikt organisk betinget",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "X07",
+    "title": "Menstruasjon uregelmessig/hyppig",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "D15",
+    "title": "Blødning gastrointestinal melena",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "D18",
+    "title": "Endring i avføring/avføringsvane",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "L91",
+    "title": "Artrose posttraumatisk multippel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "L93",
+    "title": "Tennisalbue/lateral epikondylitt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "L12",
+    "title": "Smerte finger/fingre (bløtdeler)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "F85",
+    "title": "Ulcus corneae (ikke-traumatisk)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "U98",
+    "title": "Urin forhøyet nivå tungmetaller",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "W91",
+    "title": "Ukomplisert fødsel dødfødt barn",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "K04",
+    "title": "Hjerteslag kraftige/ubehagelige",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "F70",
+    "title": "Bakteriell/viral konkjunktivitt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "N01",
+    "title": "Hodepine posttraumatisk kronisk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "Y16",
+    "title": "Bryst utseende bekymret for (M)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "X26",
+    "title": "Engstelig for brystkreft kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "T81",
+    "title": "Struma enkeltknute ikke-toksisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "R29",
+    "title": "Luftveiene symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "X09",
+    "title": "Premenstruelle symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "H83",
+    "title": "Hørselstap mekanisk otosklerose",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "F05",
+    "title": "Lesevansker pga synsfortyrrelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "Y25",
+    "title": "Engstelig for kjønnssykdom mann",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "U04",
+    "title": "Enurese av organisk opprinnelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "Y85",
+    "title": "BPH (benign prostatahyperplasi)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "S01",
+    "title": "Smertefull lesjon eller utslett",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "W781",
+    "title": "Rutinemessig postpartumkontroll",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "W"
+  },
+  {
+    "code": "S97",
+    "title": "Ulcus varikøst underekstremitet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "N89",
+    "title": "Vaskulær hodepine med/uten aura",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "W70",
+    "title": "Underlivsinfeksjon etter fødsel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "W18",
+    "title": "Postpartum symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "D80",
+    "title": "Skade i fordøyelsessystemet IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "S87",
+    "title": "Dermatitis palmoplantaris sicca",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "L19",
+    "title": "Muskelstrekk (ikke fersk skade)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "P04",
+    "title": "Irritabel vanskelig temperament",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "L05",
+    "title": "Flanke/armhule symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "A04",
+    "title": "ME (myalgisk encefalomyelopati)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "A20",
+    "title": "Dødshjelp diskusjon/spørsmål om",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "N86",
+    "title": "Sklerose multippel disseminert",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "N87",
+    "title": "Parkinsonisme legemiddelutløst",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "R991",
+    "title": "Covid-19 (mistenkt/sannsynlig)",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "S99",
+    "title": "Lichen sclerosis et atrophicus",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "R04",
+    "title": "Pustebesvær Cheyne-Stokes type",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "X79",
+    "title": "Godartet svulst i bryst kvinne",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "S04",
+    "title": "Lokalisert hevelse/kul i huden",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "D87",
+    "title": "Funksjonelle plager i magesekk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "T78",
+    "title": "Cystis tyreoglossus persistens",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "B71",
+    "title": "Lymfadenitt kronisk/uspesifikk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "H73",
+    "title": "Tuba auditiva stenose/striktur",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "X76",
+    "title": "Ondartet svulst i bryst kvinne",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "H75",
+    "title": "Godartet/ondartet svulst i øre",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "X84",
+    "title": "Ytre genitalia sårdannelse (K)",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "U29",
+    "title": "Urinveier symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "A74",
+    "title": "Røde hunder med komplikasjoner",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "W94",
+    "title": "Infeksjon brystvorte barseltid",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "B77",
+    "title": "Skade i blod/lymfesystemet IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "Y75",
+    "title": "Balanopostitt candidainfeksjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "A29",
+    "title": "Generelle symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "K94",
+    "title": "Tromboflebitt underekstremitet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "F18",
+    "title": "Kontaktlinser symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "Z24",
+    "title": "Problem med forhold til venner",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "D06",
+    "title": "Abdominalsmerte lokalisert IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "X14",
+    "title": "Utflod skjeden endret utseende",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "F93",
+    "title": "Glaukom etter annen øyesykdom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "A71",
+    "title": "Følgetilstand etter meslinger",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "U891",
+    "title": "kronisk nyresykdom, stadium 1",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "U"
+  },
+  {
+    "code": "W03",
+    "title": "Blødning tidlig i svangerskap",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "S22",
+    "title": "«clubbing»/trommestikkefingre",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "S17",
+    "title": "Skade hud blemme (ikke varme)",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "A77",
+    "title": "Virussykdom antropodeoverført",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "R25",
+    "title": "Unormalt oppspytt/ekspektorat",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "K82",
+    "title": "Pulmonal hjertesykdom kronisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "D23",
+    "title": "Hepatomegali med splenomegali",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "Y74",
+    "title": "Klamydiainfeksjon epididymitt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "X13",
+    "title": "Kontaktblødning livmor/skjede",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "K95",
+    "title": "Åreknuter på underekstremitet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "P27",
+    "title": "Engstelig for selvmordstanker",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "N03",
+    "title": "Ansiktssmerte og hodepine INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "L77",
+    "title": "Forstuving/forstrekking ankel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "R86",
+    "title": "Godartet svulst luftveier INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "R79",
+    "title": "Bronkitt kronisk mukopurulent",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "P15",
+    "title": "Alkoholisk hjerneatrofi/skade",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "P20",
+    "title": "Forstyrrelse av konsentrasjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "T86",
+    "title": "Hypotyreose jodmangelrelatert",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "N81",
+    "title": "Skade cervikal nerverot/nerve",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "A981",
+    "title": "Cytologi livmorhals screening",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "A"
+  },
+  {
+    "code": "T92",
+    "title": "Urinsyregikt legemiddelutløst",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "B78",
+    "title": "Medfødt feil hemolytisk anemi",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "N90",
+    "title": "Hemikrani kronisk paroksysmal",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "A03",
+    "title": "Forhøyet kroppstemperatur INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "A01",
+    "title": "Smerte generell/flere steder",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "S76",
+    "title": "Streptokokkinfeksjon i huden",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "L20",
+    "title": "Leddsmerte/-stivhet/-svakhet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "X88",
+    "title": "Kronisk cyste-sykdom i bryst",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "N85",
+    "title": "Medfødt feil i nervesystemet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "L72",
+    "title": "Monteggias luksasjonsfraktur",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "P17",
+    "title": "Tobakk misbruk/skadelig bruk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "X75",
+    "title": "Ondartet svulst i livmorhals",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "U05",
+    "title": "Vannlating treg igangsetting",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "D02",
+    "title": "Epigastriet symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "D08",
+    "title": "Flatulens/oppblåsthet/raping",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "R74",
+    "title": "Infeksjon øvre luftveier INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "R96",
+    "title": "Astma endogen ikke-allergisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "T08",
+    "title": "failure to thrive hos voksne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "U78",
+    "title": "Godartet svulst i urinveiene",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "D24",
+    "title": "Abdominal oppfylling/kul IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "K06",
+    "title": "Unormalt fremtrendende vener",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "W80",
+    "title": "Svangerskap utenfor livmoren",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "K05",
+    "title": "Uregelmessige hjerteslag IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "K01",
+    "title": "Brystsmerte ved anstrengelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "K25",
+    "title": "Engstelig for høyt blodtrykk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "W14",
+    "title": "Prevensjon pessar tilpasning",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "S21",
+    "title": "Hudstruktur symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "S86",
+    "title": "Seboréisk dermatitt spedbarn",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "F91",
+    "title": "Brytningsfeil forskjell øyne",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "F81",
+    "title": "Medfødt feil øye fremre del",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "B72",
+    "title": "Hodgkins lymfogranulomatose",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "S29",
+    "title": "Bloduttredelse hud spontane",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "S74",
+    "title": "Kroppssopp/ringorm på kropp",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "S73",
+    "title": "Infestasjon av parasitt IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "L74",
+    "title": "Brudd tarsal/metatarsal ben",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "S27",
+    "title": "Engstelig for hudsykdom IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "S26",
+    "title": "Engstelig for kreft i huden",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "P16",
+    "title": "Alkohol intoksikasjon akutt",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "P19",
+    "title": "Narkotika amnestisk syndrom",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "Z18",
+    "title": "Problem med sykdom hos barn",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "Y02",
+    "title": "Smerte i bekken og perineum",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "D05",
+    "title": "Uspesifisert anognital kløe",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "Y01",
+    "title": "Smerte i bekken og perineum",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "X15",
+    "title": "Skjede symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "D10",
+    "title": "Oppkast/brekninger psykogen",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "X10",
+    "title": "Forskyvning av menstruasjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "D14",
+    "title": "Oppkast med blod/hematemese",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "X01",
+    "title": "Smerte i bekken og perineum",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "T72",
+    "title": "Godartet svulst i tyreoidea",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "T71",
+    "title": "Ondartet svulst i tyreoidea",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "K24",
+    "title": "Engstelig for hjerteinfarkt",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "R09",
+    "title": "Bihule symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "K02",
+    "title": "Trykk/sammensnøring hjertet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "D95",
+    "title": "Analfissur/perianal abscess",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "H13",
+    "title": "Øreklapp/øredottfornemmelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "U76",
+    "title": "Ondartet svulst i urinblære",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "H78",
+    "title": "Skade øregang og øremusling",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "Z06",
+    "title": "Problem med arbeidsledighet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "Y04",
+    "title": "Penis symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "S98",
+    "title": "Urticaria vibrasjonsutløst",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "D96",
+    "title": "Intestinale parasitter IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "Z02",
+    "title": "Problem med drikkevann/mat",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Z"
+  },
+  {
+    "code": "L73",
+    "title": "Brudd både tibia og fibula",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "D07",
+    "title": "Dyspepsi/fordøyelsesbesvær",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "R77",
+    "title": "Laryngitt akutt obstruktiv",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "U13",
+    "title": "Blære symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "Y77",
+    "title": "Ondartet svulst i prostata",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "U72",
+    "title": "Uretritt klamydiainfeksjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "F86",
+    "title": "Følgetilstand etter trakom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "U75",
+    "title": "Ondartet svulst nyrebekken",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "A73",
+    "title": "Malaria med komplikasjoner",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "P07",
+    "title": "Seksuell drift/lyst hemmet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "R73",
+    "title": "Sårinfeksjon neseslimhinne",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "L75",
+    "title": "Brudd lårben subtrokantært",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "L"
+  },
+  {
+    "code": "S82",
+    "title": "Melanocyttnevus pigmentert",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "U80",
+    "title": "Fremmedlegeme i urinveiene",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "D89",
+    "title": "Lyskebrokk med obstruksjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "S20",
+    "title": "Liktorn/fortykket underhud",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "W19",
+    "title": "Undertrykt melkeproduksjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "W"
+  },
+  {
+    "code": "F17",
+    "title": "Dårlig tilpasset anatomisk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "P12",
+    "title": "Enuresis sekundær psykogen",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "F16",
+    "title": "Øyelokk løs/overflødig hud",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "S06",
+    "title": "Lokalisert utslett i huden",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "N19",
+    "title": "Artikulasjonsforstyrrelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "L11",
+    "title": "Håndledd symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "Y83",
+    "title": "Ikke-descendert testikkel",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "R05",
+    "title": "Hoste uten ekspektorasjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "R24",
+    "title": "Blodig oppspytt/hemoptyse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "R08",
+    "title": "Nese problem med utseende",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "L03",
+    "title": "Korsrygg symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "L14",
+    "title": "Legg/lår symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "S71",
+    "title": "Forkjølelsessår herpetisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "S70",
+    "title": "Herpes zoster ophtalmicus",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "F15",
+    "title": "Øyefarge endret/avvikende",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "H85",
+    "title": "Skade hørsel støyfremkalt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "S77",
+    "title": "Plateepitelkarsinom i hud",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "Y06",
+    "title": "Prostata symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "U07",
+    "title": "Urin symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "S23",
+    "title": "Håravfall med follikulitt",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "H77",
+    "title": "Perforert trommehinne IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "H84",
+    "title": "Hørselstap aldersbetinget",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "K93",
+    "title": "Lungeemboli cor pulmonale",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "X04",
+    "title": "Smerte ved samleie kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "D21",
+    "title": "Klumpfølelse ved svelging",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "A09",
+    "title": "Hyperhidrose generalisert",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "S72",
+    "title": "Antropodeinfestasjon IKA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "X03",
+    "title": "Intermenstruelle smerter",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "S15",
+    "title": "Fremmedlegeme under negl",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "F75",
+    "title": "Kontusjon/blødning i øye",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "K86",
+    "title": "Hypertensjon ukomplisert",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "S16",
+    "title": "Skade hud kontusjon/slag",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "Y03",
+    "title": "Utflod fra urinrør/penis",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "Y"
+  },
+  {
+    "code": "R98",
+    "title": "Hyperventileringssyndrom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "F29",
+    "title": "Øye symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "A27",
+    "title": "Engstelig for helseskade",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "P77",
+    "title": "Selvmord/selvmordsforsøk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "L08",
+    "title": "Skulder symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "X78",
+    "title": "Godartet svulst i livmor",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "X"
+  },
+  {
+    "code": "Y81",
+    "title": "Fimose/overflødig forhud",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "P86",
+    "title": "Anorexia nervosa atypisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "R21",
+    "title": "Tørr/betent/rød/sår hals",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "H29",
+    "title": "Øre symptomer/plager IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "F03",
+    "title": "Purulent sekret fra øyet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "X06",
+    "title": "Menometroragi menopausal",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "S19",
+    "title": "Skade i hud/underhud IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "D16",
+    "title": "Avføring med friskt blod",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "N16",
+    "title": "Forstyrrelse i lukt/smak",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "A26",
+    "title": "Engstelig for kreft IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "L17",
+    "title": "Fot/tå symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "P10",
+    "title": "Tics motoriske kroniske",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "F27",
+    "title": "Engstelig for øyesykdom",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "X12",
+    "title": "Postmenopausal blødning",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "N17",
+    "title": "Balanseforstyrrelse INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "H76",
+    "title": "Fremmedlegeme mellomøre",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "R23",
+    "title": "Stemme symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "W78",
+    "title": "Graviditetstest positiv",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "R01",
+    "title": "Smerterfull respirasjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "B70",
+    "title": "Lymfadenitt med abscess",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "S85",
+    "title": "Abscess pilonidalcyste",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "U90",
+    "title": "Ortostatisk proteinuri",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "U"
+  },
+  {
+    "code": "D17",
+    "title": "Ufrivillig tarmtømming",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "X19",
+    "title": "Kul i bryst IKA kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "X16",
+    "title": "Vulva symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "T82",
+    "title": "Fedme legemiddelutløst",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "H03",
+    "title": "Øresus banking/pulslyd",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "F72",
+    "title": "Meiboms cyste infisert",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "L07",
+    "title": "Kjeve symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "L13",
+    "title": "Hofte symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "L10",
+    "title": "Albue symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "L16",
+    "title": "Ankel symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "A08",
+    "title": "Hevelse/oppfylning IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "B25",
+    "title": "Engstelig for hiv/aids",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "B"
+  },
+  {
+    "code": "N93",
+    "title": "Canalis carpi-syndrom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "N92",
+    "title": "Nervesmerter ansiktet",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "F82",
+    "title": "Netthinneløsning/rift",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "S95",
+    "title": "Molluscum contagiosum",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "F14",
+    "title": "Øye unormal bevegelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "Y73",
+    "title": "Prostatitt/vesikulitt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "S09",
+    "title": "Infeksjon i finger/tå",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "A96",
+    "title": "Dødsfall ukjent årsak",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "U14",
+    "title": "Nyre symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "P13",
+    "title": "Enkoprese funksjonell",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "P"
+  },
+  {
+    "code": "B76",
+    "title": "Miltruptur traumatisk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "R07",
+    "title": "Nysing/tetthet i nese",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "K07",
+    "title": "Hevelse føtter/legger",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "K"
+  },
+  {
+    "code": "R76",
+    "title": "Peritonsillær abscess",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "X18",
+    "title": "Smerte i bryst kvinne",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "A06",
+    "title": "Anfall illebefinnende",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "L02",
+    "title": "Rygg symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "X02",
+    "title": "Menstruasjonssmerter",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "X"
+  },
+  {
+    "code": "N07",
+    "title": "Krampeanfall/kramper",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "R03",
+    "title": "Respirasjon hvesende",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "R02",
+    "title": "Kortpustethet/dyspné",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "K78",
+    "title": "Atrieflimmer/flutter",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "K"
+  },
+  {
+    "code": "R992",
+    "title": "Covid-19 (bekreftet)",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "R"
+  },
+  {
+    "code": "U02",
+    "title": "Vannlating økt trang",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "P78",
+    "title": "Tretthetssyndrom INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "P"
+  },
+  {
+    "code": "S13",
+    "title": "Bitt av dyr/menneske",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "F02",
+    "title": "Blodskutt/betent øye",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "L09",
+    "title": "Arm symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "F13",
+    "title": "Øye sandpapirfølelse",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "Y86",
+    "title": "hydroccele funniculi",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "S92",
+    "title": "Hidradenitt purulent",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "S81",
+    "title": "Hemangiom/lymfangiom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "L15",
+    "title": "Kne symptomer/plager",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "L"
+  },
+  {
+    "code": "A25",
+    "title": "Engstelig for døden",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "T01",
+    "title": "Drikking overdreven",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "N91",
+    "title": "Ansiktslammelse INA",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "N04",
+    "title": "Rykninger i leggene",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "W79",
+    "title": "Uønsket svangerskap",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "W"
+  },
+  {
+    "code": "S96",
+    "title": "Akne papulopustuløs",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "H81",
+    "title": "Cerumen obliterans",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "H"
+  },
+  {
+    "code": "F84",
+    "title": "Makuladegenerasjon",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "F"
+  },
+  {
+    "code": "S78",
+    "title": "Lipom hud/underhud",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "T02",
+    "title": "Overdreven spising",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "T07",
+    "title": "Vektøkning unormal",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "B87",
+    "title": "Hepatosplenomegali",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "B"
+  },
+  {
+    "code": "A07",
+    "title": "Bevisstløshet/koma",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "A191",
+    "title": "Kjønnsinkongruens",
+    "component_hint": "unknown",
+    "component_guess": null,
+    "chapter": "A"
+  },
+  {
+    "code": "D04",
+    "title": "Bekkenbunnssmerte",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "N95",
+    "title": "Spenningshodepine",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "S03",
+    "title": "Verruca plantaris",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "H04",
+    "title": "Øreflod/sekresjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "H01",
+    "title": "Øresmerte/øreverk",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "A02",
+    "title": "Hutring/skjelving",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "A75",
+    "title": "Pfeiffers sykdom",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "A"
+  },
+  {
+    "code": "N18",
+    "title": "Lammelse/svakhet",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "N"
+  },
+  {
+    "code": "S90",
+    "title": "Pityriasis rosea",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "S12",
+    "title": "Insektstikk/bitt",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "S10",
+    "title": "Abscess/furunkel",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "D90",
+    "title": "Mellomgulvsbrokk",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "D"
+  },
+  {
+    "code": "A11",
+    "title": "Brystsmerte IKA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "A"
+  },
+  {
+    "code": "T11",
+    "title": "Dehydrering INA",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "T03",
+    "title": "Nedsatt matlyst",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "T"
+  },
+  {
+    "code": "S89",
+    "title": "Bleiedermatitt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "H05",
+    "title": "Blod i/fra øre",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "H"
+  },
+  {
+    "code": "U08",
+    "title": "Urinretensjon",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "U"
+  },
+  {
+    "code": "S94",
+    "title": "Inngrodd negl",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "R71",
+    "title": "Parapertussis",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "R"
+  },
+  {
+    "code": "S02",
+    "title": "Hudkløe penis",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "S"
+  },
+  {
+    "code": "D03",
+    "title": "Syreoverskudd",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "D09",
+    "title": "Uvel i magen",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  },
+  {
+    "code": "R06",
+    "title": "Neseblødning",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "R"
+  },
+  {
+    "code": "N72",
+    "title": "Stivkrampe",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "N"
+  },
+  {
+    "code": "F01",
+    "title": "Smerte øye",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "F"
+  },
+  {
+    "code": "Y82",
+    "title": "Hypospadi",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "Y"
+  },
+  {
+    "code": "S93",
+    "title": "Talgcyste",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "S"
+  },
+  {
+    "code": "T83",
+    "title": "Overvekt",
+    "component_hint": "diagnosis",
+    "component_guess": 7,
+    "chapter": "T"
+  },
+  {
+    "code": "D13",
+    "title": "Icterus",
+    "component_hint": "symptom",
+    "component_guess": 1,
+    "chapter": "D"
+  }
+]

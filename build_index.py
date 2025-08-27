@@ -2,13 +2,17 @@
 # Build a FAISS index from the ICPC-2 CSV
 
 import os, json
+from dotenv import load_dotenv
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from icpc_utils import load_icpc_csv, to_entries, build_doc_text, save_meta
 
+# Load environment variables
+load_dotenv()
+
 # -------- Configuration --------
-CSV_PATH = os.environ.get("ICPC_CSV_PATH", "ICPC-2.csv")
+CSV_PATH = os.environ.get("ICPC_CSV_PATH", "mnt/data/ICPC-2.csv")
 EMB_MODEL = os.environ.get("EMB_MODEL", "intfloat/multilingual-e5-base")  # good multilingual baseline
 INDEX_OUT = os.environ.get("INDEX_OUT", "icpc2.faiss")
 META_OUT = os.environ.get("META_OUT", "icpc2_meta.json")

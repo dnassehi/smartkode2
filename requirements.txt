@@ -3,3 +3,6 @@ numpy
 faiss-cpu
 sentence-transformers
 requests
+python-dotenv
+flask
+flask-cors
