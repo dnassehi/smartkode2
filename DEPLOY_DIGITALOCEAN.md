@@ -31,7 +31,7 @@ apt install docker-compose -y
 ### 3. Last opp kode
 ```bash
 # Klon repo
-git clone https://github.com/din-bruker/smartkode2.git
+git clone https://github.com/dnassehi/smartkode2.git
 cd smartkode2
 
 # Eller last opp via SCP (fra lokal maskin):
@@ -42,7 +42,7 @@ cd smartkode2
 ```bash
 # Opprett .env fil
 cat > .env << EOF
-MISTRAL_API_KEY=dRnAfaO2jF7LzoqD1YQ5FYzPulF10NEc
+MISTRAL_API_KEY=min-mistral-api-kode
 MISTRAL_MODEL=mistral-large-latest
 EMB_MODEL=intfloat/multilingual-e5-base
 TEMPERATURE=0.2
