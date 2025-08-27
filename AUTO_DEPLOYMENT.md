@@ -28,7 +28,7 @@ git push origin main
 1. Gå til "Variables" tab
 2. Legg til:
    ```
-   MISTRAL_API_KEY=dRnAfaO2jF7LzoqD1YQ5FYzPulF10NEc
+   MISTRAL_API_KEY=your_mistral_api_key_here
    MISTRAL_MODEL=mistral-large-latest
    EMB_MODEL=intfloat/multilingual-e5-base
    TEMPERATURE=0.2
